@@ -15,15 +15,6 @@ a {
     color: unset;
 }
 
-body::-webkit-scrollbar {
-    display: none;
-}
-
-body {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-}
-
 .site-wrapper {
     min-height: 100vh;
     display: flex;
@@ -49,7 +40,7 @@ header a {
     text-decoration: none;
     color: #4d4d4d;
     font-weight: 600;
-    padding: 5px 20px;
+    padding: 5px 9px;
 }
 
 header a:hover {
